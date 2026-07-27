@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: taxi_raw
+    database: taxi-trip-503615
+    schema: taxi_raw
+
+    tables:
+      - name: taxi_trips
+      

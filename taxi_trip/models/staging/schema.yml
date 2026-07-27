@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_taxi_trips
+    description: Cleaned NYC taxi trip data used for analytics.
+    columns:
+      - name: vendor_id
+        description: Taxi company identifier.
+        tests:
+          - not_null
+    
+      - name: trip_distance
+        description: The distance of the trip
+        tests:
+          - not_null
+      

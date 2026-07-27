@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# dbt generated files
+target/
+logs/
+dbt_packages/
+
+# Secrets
+*.json
+
+# Data files
+data/*.csv
+
+# VS Code
+.vscode/
