@@ -53,32 +53,34 @@ Staging layer:
 ## Project Structure
 
 
+```text
 etl-bigquery-dbt-project/
 │
 ├── scripts/
-│ ├── explore_data.py
-│ └── load_bigquery.py
+│   ├── explore_data.py
+│   └── load_bigquery.py
 │
 ├── taxi_trip/
-│ ├── models/
-│ │ ├── staging/
-│ │ │ ├── sources.yml
-│ │ │ ├── schema.yml
-│ │ │ └── stg_taxi_trips.sql
-│ │ │
-│ │ └── marts/
-│ │ ├── trip_summary.sql
-│ │ └── daily_revenue.sql
-│ │
-│ ├── tests/
-│ ├── macros/
-│ ├── seeds/
-│ ├── snapshots/
-│ ├── analyses/
-│ └── dbt_project.yml
+│   ├── models/
+│   │   ├── staging/
+│   │   │   ├── sources.yml
+│   │   │   ├── schema.yml
+│   │   │   └── stg_taxi_trips.sql
+│   │   │
+│   │   └── marts/
+│   │       ├── trip_summary.sql
+│   │       └── daily_revenue.sql
+│   │
+│   ├── tests/
+│   ├── macros/
+│   ├── seeds/
+│   ├── snapshots/
+│   ├── analyses/
+│   └── dbt_project.yml
 │
 ├── requirements.txt
 └── README.md
+```
 
 ## dbt Folder Explanation
 
