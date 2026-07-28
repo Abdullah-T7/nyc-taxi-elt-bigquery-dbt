@@ -6,6 +6,10 @@ This project builds an end-to-end ELT pipeline using Python, Google BigQuery, an
 
 The pipeline extracts NYC Taxi trip data from a CSV file, loads the raw data into BigQuery, and uses dbt to transform the data into analytics-ready tables.
 
+## Dashboard
+
+![NYC Taxi Dashboard](images/dashboard.png)
+
 ## Architecture
 
 CSV Dataset
